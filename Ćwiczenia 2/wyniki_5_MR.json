@@ -1,0 +1,809 @@
+MongoDB shell version v4.4.4
+connecting to: mongodb://127.0.0.1:27017/atd?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("b0f70379-1e76-4c21-82f7-414b480bb050") }
+MongoDB server version: 4.4.4
+[
+	{
+		"_id" : {
+			"currency" : "XAF",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 14094.660000000002,
+			"avgBalanceLeft" : 4698.22
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "MYR",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 4781.12,
+			"avgBalanceLeft" : 4781.12
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "YER",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 13712.5,
+			"avgBalanceLeft" : 4570.833333333333
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "IQD",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 4269.39,
+			"avgBalanceLeft" : 4269.39
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "PLN",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 90770.77999999998,
+			"avgBalanceLeft" : 5042.82111111111
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "GTQ",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 5806.3,
+			"avgBalanceLeft" : 5806.3
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "ALL",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 3325.48,
+			"avgBalanceLeft" : 3325.48
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "AMD",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 24609.33,
+			"avgBalanceLeft" : 4921.866
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "UZS",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 3573.03,
+			"avgBalanceLeft" : 3573.03
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "XOF",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 17882.05,
+			"avgBalanceLeft" : 5960.683333333333
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "PKR",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 18938,
+			"avgBalanceLeft" : 4734.5
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "ARS",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 23242,
+			"avgBalanceLeft" : 4648.4
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "JPY",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 60944.74,
+			"avgBalanceLeft" : 5078.7283333333335
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "DOP",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 20674.739999999998,
+			"avgBalanceLeft" : 5168.6849999999995
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "KYD",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 3760.89,
+			"avgBalanceLeft" : 3760.89
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "NOK",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 4773.66,
+			"avgBalanceLeft" : 4773.66
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "ZWL",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 5792.17,
+			"avgBalanceLeft" : 5792.17
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "HNL",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 16514.59,
+			"avgBalanceLeft" : 5504.863333333334
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "TJS",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 4087.71,
+			"avgBalanceLeft" : 4087.71
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "ETB",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 5436.11,
+			"avgBalanceLeft" : 5436.11
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "TZS",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 7052.370000000001,
+			"avgBalanceLeft" : 3526.1850000000004
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "MNT",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 21715.61,
+			"avgBalanceLeft" : 5428.9025
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "KRW",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 13379.82,
+			"avgBalanceLeft" : 6689.91
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "MKD",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 3835.05,
+			"avgBalanceLeft" : 3835.05
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "USD",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 74680.98000000001,
+			"avgBalanceLeft" : 4978.732000000001
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "ILS",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 16295.489999999998,
+			"avgBalanceLeft" : 5431.829999999999
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "SRD",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 5286.68,
+			"avgBalanceLeft" : 5286.68
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "RSD",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 4276.56,
+			"avgBalanceLeft" : 4276.56
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "MAD",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 3818.85,
+			"avgBalanceLeft" : 3818.85
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "AFN",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 16755.49,
+			"avgBalanceLeft" : 5585.163333333334
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "RUB",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 119749.15,
+			"avgBalanceLeft" : 4989.547916666666
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "BOB",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 5263.3,
+			"avgBalanceLeft" : 5263.3
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "MMK",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 4629.42,
+			"avgBalanceLeft" : 4629.42
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "PEN",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 18644.94,
+			"avgBalanceLeft" : 4661.235
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "ISK",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 4316.41,
+			"avgBalanceLeft" : 4316.41
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "NZD",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 5328.46,
+			"avgBalanceLeft" : 5328.46
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "CUP",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 15017.34,
+			"avgBalanceLeft" : 5005.78
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "COP",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 19746.73,
+			"avgBalanceLeft" : 4936.6825
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "RWF",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 4632.88,
+			"avgBalanceLeft" : 4632.88
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "XPF",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 4759.07,
+			"avgBalanceLeft" : 4759.07
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "THB",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 23021.96,
+			"avgBalanceLeft" : 4604.392
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "EUR",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 245091.46999999994,
+			"avgBalanceLeft" : 4901.829399999999
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "IRR",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 26504.24,
+			"avgBalanceLeft" : 4417.373333333334
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "KZT",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 3788.95,
+			"avgBalanceLeft" : 3788.95
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "NPR",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 5792.26,
+			"avgBalanceLeft" : 5792.26
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "SEK",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 70840.19,
+			"avgBalanceLeft" : 5060.013571428572
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "NGN",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 24946.23,
+			"avgBalanceLeft" : 4157.705
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "ZMW",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 5569.56,
+			"avgBalanceLeft" : 5569.56
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "CDF",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 12228.8,
+			"avgBalanceLeft" : 6114.4
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "CNY",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 470700.38000000006,
+			"avgBalanceLeft" : 4954.740842105264
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "ZAR",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 11790.92,
+			"avgBalanceLeft" : 3930.306666666667
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "CAD",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 58375.6,
+			"avgBalanceLeft" : 5306.872727272727
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "CLP",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 21008.95,
+			"avgBalanceLeft" : 5252.2375
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "HRK",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 24354.82,
+			"avgBalanceLeft" : 4870.964
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "GBP",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 6149.19,
+			"avgBalanceLeft" : 6149.19
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "CZK",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 37156.420000000006,
+			"avgBalanceLeft" : 4644.552500000001
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "MGA",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 14560.99,
+			"avgBalanceLeft" : 4853.663333333333
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "MWK",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 3574.42,
+			"avgBalanceLeft" : 3574.42
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "LYD",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 8764.99,
+			"avgBalanceLeft" : 4382.495
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "EGP",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 5579.3,
+			"avgBalanceLeft" : 5579.3
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "IDR",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 323922.59,
+			"avgBalanceLeft" : 4907.918030303031
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "BWP",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 4076.29,
+			"avgBalanceLeft" : 4076.29
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "NIO",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 9971.28,
+			"avgBalanceLeft" : 4985.64
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "UAH",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 40471.840000000004,
+			"avgBalanceLeft" : 5058.9800000000005
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "MXN",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 50228.99999999999,
+			"avgBalanceLeft" : 5022.9
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "PHP",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 118606.27999999998,
+			"avgBalanceLeft" : 4941.928333333332
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "BGN",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 21200.88,
+			"avgBalanceLeft" : 5300.22
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "BRL",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 49632.020000000004,
+			"avgBalanceLeft" : 4512.001818181819
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "VEF",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 8333.28,
+			"avgBalanceLeft" : 4166.64
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "VND",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 36160.259999999995,
+			"avgBalanceLeft" : 4520.032499999999
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "PYG",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 4874.69,
+			"avgBalanceLeft" : 4874.69
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "BYR",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 5095.79,
+			"avgBalanceLeft" : 5095.79
+		}
+	},
+	{
+		"_id" : {
+			"currency" : "VUV",
+			"nationality" : "Poland",
+			"sex" : "Female"
+		},
+		"value" : {
+			"totalBalanceLeft" : 6418.27,
+			"avgBalanceLeft" : 6418.27
+		}
+	}
+]

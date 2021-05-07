@@ -1,0 +1,626 @@
+MongoDB shell version v4.4.4
+connecting to: mongodb://127.0.0.1:27017/atd?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("06896702-e5f4-4ec9-b73e-e4367ec4c464") }
+MongoDB server version: 4.4.4
+[
+	{
+		"_id" : "SSP",
+		"leftCredits" : 42256.53
+	},
+	{
+		"_id" : "CLP",
+		"leftCredits" : 388620.14
+	},
+	{
+		"_id" : "BYR",
+		"leftCredits" : 686489.84
+	},
+	{
+		"_id" : "LKR",
+		"leftCredits" : 225111.38999999998
+	},
+	{
+		"_id" : "RUB",
+		"leftCredits" : 8532474.09
+	},
+	{
+		"_id" : "CHF",
+		"leftCredits" : 108940.64
+	},
+	{
+		"_id" : "DJF",
+		"leftCredits" : 14734.27
+	},
+	{
+		"_id" : "SGD",
+		"leftCredits" : 12820.48
+	},
+	{
+		"_id" : "BMD",
+		"leftCredits" : 5189
+	},
+	{
+		"_id" : "SBD",
+		"leftCredits" : 9983
+	},
+	{
+		"_id" : "ZAR",
+		"leftCredits" : 932463.66
+	},
+	{
+		"_id" : "GEL",
+		"leftCredits" : 157276.96
+	},
+	{
+		"_id" : "CVE",
+		"leftCredits" : 46538.51
+	},
+	{
+		"_id" : "USD",
+		"leftCredits" : 4086760.81
+	},
+	{
+		"_id" : "TWD",
+		"leftCredits" : 37654
+	},
+	{
+		"_id" : null,
+		"leftCredits" : 1.9292929591259125e+25
+	},
+	{
+		"_id" : "GTQ",
+		"leftCredits" : 588368.85
+	},
+	{
+		"_id" : "MUR",
+		"leftCredits" : 182130.48
+	},
+	{
+		"_id" : "NOK",
+		"leftCredits" : 760113.61
+	},
+	{
+		"_id" : "SYP",
+		"leftCredits" : 501467.35
+	},
+	{
+		"_id" : "ALL",
+		"leftCredits" : 651597.87
+	},
+	{
+		"_id" : "MOP",
+		"leftCredits" : 5337.77
+	},
+	{
+		"_id" : "XAF",
+		"leftCredits" : 736336.77
+	},
+	{
+		"_id" : "LAK",
+		"leftCredits" : 86305.05
+	},
+	{
+		"_id" : "PYG",
+		"leftCredits" : 286515.48
+	},
+	{
+		"_id" : "XCD",
+		"leftCredits" : 168150.01
+	},
+	{
+		"_id" : "AZN",
+		"leftCredits" : 394880.17
+	},
+	{
+		"_id" : "BSD",
+		"leftCredits" : 55361.39
+	},
+	{
+		"_id" : "MYR",
+		"leftCredits" : 666533.65
+	},
+	{
+		"_id" : "AED",
+		"leftCredits" : 52973.33
+	},
+	{
+		"_id" : "IDR",
+		"leftCredits" : 15619806.11
+	},
+	{
+		"_id" : "MMK",
+		"leftCredits" : 223284.76
+	},
+	{
+		"_id" : "OMR",
+		"leftCredits" : 87008.08
+	},
+	{
+		"_id" : "KPW",
+		"leftCredits" : 222518.63
+	},
+	{
+		"_id" : "MAD",
+		"leftCredits" : 510936.11
+	},
+	{
+		"_id" : "HTG",
+		"leftCredits" : 215992.13
+	},
+	{
+		"_id" : "MZN",
+		"leftCredits" : 92068.64
+	},
+	{
+		"_id" : "BND",
+		"leftCredits" : 7782.66
+	},
+	{
+		"_id" : "TZS",
+		"leftCredits" : 603855.99
+	},
+	{
+		"_id" : "JMD",
+		"leftCredits" : 201447.71
+	},
+	{
+		"_id" : "KMF",
+		"leftCredits" : 138004.7
+	},
+	{
+		"_id" : "BBD",
+		"leftCredits" : 26720.5
+	},
+	{
+		"_id" : "TMT",
+		"leftCredits" : 113099.62
+	},
+	{
+		"_id" : "MDL",
+		"leftCredits" : 173318.73
+	},
+	{
+		"_id" : "MNT",
+		"leftCredits" : 639977.48
+	},
+	{
+		"_id" : "NIO",
+		"leftCredits" : 240664.87
+	},
+	{
+		"_id" : "RWF",
+		"leftCredits" : 43299.96
+	},
+	{
+		"_id" : "TOP",
+		"leftCredits" : 18424.47
+	},
+	{
+		"_id" : "VEF",
+		"leftCredits" : 629053.41
+	},
+	{
+		"_id" : "MRO",
+		"leftCredits" : 44471.32
+	},
+	{
+		"_id" : "SEK",
+		"leftCredits" : 3706221.0100000002
+	},
+	{
+		"_id" : "KZT",
+		"leftCredits" : 584923.2
+	},
+	{
+		"_id" : "CNY",
+		"leftCredits" : 27425502.27
+	},
+	{
+		"_id" : "RON",
+		"leftCredits" : 11557.6
+	},
+	{
+		"_id" : "BTN",
+		"leftCredits" : 37711.08
+	},
+	{
+		"_id" : "EGP",
+		"leftCredits" : 528336.14
+	},
+	{
+		"_id" : "AFN",
+		"leftCredits" : 661834.75
+	},
+	{
+		"_id" : "FJD",
+		"leftCredits" : 9321.43
+	},
+	{
+		"_id" : "TRY",
+		"leftCredits" : 18414.53
+	},
+	{
+		"_id" : "GBP",
+		"leftCredits" : 243512.86
+	},
+	{
+		"_id" : "EUR",
+		"leftCredits" : 16700089.28
+	},
+	{
+		"_id" : "AWG",
+		"leftCredits" : 7282.73
+	},
+	{
+		"_id" : "ZWL",
+		"leftCredits" : 142978.86
+	},
+	{
+		"_id" : "ERN",
+		"leftCredits" : 21598.47
+	},
+	{
+		"_id" : "NPR",
+		"leftCredits" : 146606.65
+	},
+	{
+		"_id" : "BAM",
+		"leftCredits" : 415965.47
+	},
+	{
+		"_id" : "LSL",
+		"leftCredits" : 26269.07
+	},
+	{
+		"_id" : "HNL",
+		"leftCredits" : 817695.24
+	},
+	{
+		"_id" : "UYU",
+		"leftCredits" : 231996.14
+	},
+	{
+		"_id" : "XOF",
+		"leftCredits" : 934043.61
+	},
+	{
+		"_id" : "LRD",
+		"leftCredits" : 54883.45
+	},
+	{
+		"_id" : "FKP",
+		"leftCredits" : 5118.97
+	},
+	{
+		"_id" : "NAD",
+		"leftCredits" : 55420.34
+	},
+	{
+		"_id" : "BDT",
+		"leftCredits" : 294843.38
+	},
+	{
+		"_id" : "BZD",
+		"leftCredits" : 24296.690000000002
+	},
+	{
+		"_id" : "SDG",
+		"leftCredits" : 127317.75
+	},
+	{
+		"_id" : "LTL",
+		"leftCredits" : 220627.42
+	},
+	{
+		"_id" : "DKK",
+		"leftCredits" : 222452.28
+	},
+	{
+		"_id" : "MGA",
+		"leftCredits" : 377675.55
+	},
+	{
+		"_id" : "XPF",
+		"leftCredits" : 132926.01
+	},
+	{
+		"_id" : "COP",
+		"leftCredits" : 1976194.79
+	},
+	{
+		"_id" : "BOB",
+		"leftCredits" : 257433.54
+	},
+	{
+		"_id" : "BRL",
+		"leftCredits" : 5609900
+	},
+	{
+		"_id" : "CZK",
+		"leftCredits" : 2644211.16
+	},
+	{
+		"_id" : "YER",
+		"leftCredits" : 583657.38
+	},
+	{
+		"_id" : "NGN",
+		"leftCredits" : 1282147.14
+	},
+	{
+		"_id" : "CUP",
+		"leftCredits" : 514413.88
+	},
+	{
+		"_id" : "KYD",
+		"leftCredits" : 16809.66
+	},
+	{
+		"_id" : "UZS",
+		"leftCredits" : 330309.61
+	},
+	{
+		"_id" : "QAR",
+		"leftCredits" : 36358.92
+	},
+	{
+		"_id" : "RSD",
+		"leftCredits" : 817403.54
+	},
+	{
+		"_id" : "GYD",
+		"leftCredits" : 13053.5
+	},
+	{
+		"_id" : "IQD",
+		"leftCredits" : 167531.82
+	},
+	{
+		"_id" : "NZD",
+		"leftCredits" : 338447.54
+	},
+	{
+		"_id" : "GNF",
+		"leftCredits" : 73222.48
+	},
+	{
+		"_id" : "ARS",
+		"leftCredits" : 1940347.24
+	},
+	{
+		"_id" : "UAH",
+		"leftCredits" : 2505840.72
+	},
+	{
+		"_id" : "DZD",
+		"leftCredits" : 12166.2
+	},
+	{
+		"_id" : "SZL",
+		"leftCredits" : 59113.090000000004
+	},
+	{
+		"_id" : "CDF",
+		"leftCredits" : 178097.37
+	},
+	{
+		"_id" : "WST",
+		"leftCredits" : 30739.64
+	},
+	{
+		"_id" : "CRC",
+		"leftCredits" : 334544.06
+	},
+	{
+		"_id" : "VND",
+		"leftCredits" : 1395639.11
+	},
+	{
+		"_id" : "SRD",
+		"leftCredits" : 19686.77
+	},
+	{
+		"_id" : "AMD",
+		"leftCredits" : 602964.09
+	},
+	{
+		"_id" : "MKD",
+		"leftCredits" : 436912.01
+	},
+	{
+		"_id" : "GHS",
+		"leftCredits" : 83159.05
+	},
+	{
+		"_id" : "HUF",
+		"leftCredits" : 165192.16
+	},
+	{
+		"_id" : "KES",
+		"leftCredits" : 269798.11
+	},
+	{
+		"_id" : "PLN",
+		"leftCredits" : 5065738.36
+	},
+	{
+		"_id" : "SCR",
+		"leftCredits" : 14797.58
+	},
+	{
+		"_id" : "KGS",
+		"leftCredits" : 176827.79
+	},
+	{
+		"_id" : "HKD",
+		"leftCredits" : 23023.02
+	},
+	{
+		"_id" : "KHR",
+		"leftCredits" : 100447.58
+	},
+	{
+		"_id" : "VUV",
+		"leftCredits" : 23188.93
+	},
+	{
+		"_id" : "TJS",
+		"leftCredits" : 177401.05
+	},
+	{
+		"_id" : "BWP",
+		"leftCredits" : 146972.04
+	},
+	{
+		"_id" : "SAR",
+		"leftCredits" : 161706
+	},
+	{
+		"_id" : "BGN",
+		"leftCredits" : 496641.83
+	},
+	{
+		"_id" : "IRR",
+		"leftCredits" : 804397.05
+	},
+	{
+		"_id" : "SOS",
+		"leftCredits" : 82203.48
+	},
+	{
+		"_id" : "ETB",
+		"leftCredits" : 269686.62
+	},
+	{
+		"_id" : "KWD",
+		"leftCredits" : 82506.07
+	},
+	{
+		"_id" : "GMD",
+		"leftCredits" : 157963.9
+	},
+	{
+		"_id" : "ISK",
+		"leftCredits" : 39048.74
+	},
+	{
+		"_id" : "MXN",
+		"leftCredits" : 1547673.09
+	},
+	{
+		"_id" : "JPY",
+		"leftCredits" : 2584824.9
+	},
+	{
+		"_id" : "AUD",
+		"leftCredits" : 242667.03
+	},
+	{
+		"_id" : "MWK",
+		"leftCredits" : 88106.83
+	},
+	{
+		"_id" : "TND",
+		"leftCredits" : 325755.9
+	},
+	{
+		"_id" : "LBP",
+		"leftCredits" : 43326.06
+	},
+	{
+		"_id" : "JOD",
+		"leftCredits" : 210496.68
+	},
+	{
+		"_id" : "PAB",
+		"leftCredits" : 363643.61
+	},
+	{
+		"_id" : "TTD",
+		"leftCredits" : 44044.89
+	},
+	{
+		"_id" : "THB",
+		"leftCredits" : 2084269.88
+	},
+	{
+		"_id" : "INR",
+		"leftCredits" : 24172.940000000002
+	},
+	{
+		"_id" : "PKR",
+		"leftCredits" : 687770.55
+	},
+	{
+		"_id" : "KRW",
+		"leftCredits" : 433497.06
+	},
+	{
+		"_id" : "ZMW",
+		"leftCredits" : 160940.53
+	},
+	{
+		"_id" : "SLL",
+		"leftCredits" : 116224.9
+	},
+	{
+		"_id" : "PEN",
+		"leftCredits" : 2356548.02
+	},
+	{
+		"_id" : "PGK",
+		"leftCredits" : 61445.270000000004
+	},
+	{
+		"_id" : "AOA",
+		"leftCredits" : 67582.8
+	},
+	{
+		"_id" : "LYD",
+		"leftCredits" : 197545.65
+	},
+	{
+		"_id" : "MVR",
+		"leftCredits" : 32068.850000000002
+	},
+	{
+		"_id" : "BIF",
+		"leftCredits" : 45782.33
+	},
+	{
+		"_id" : "ANG",
+		"leftCredits" : 21354.39
+	},
+	{
+		"_id" : "BHD",
+		"leftCredits" : 22698.46
+	},
+	{
+		"_id" : "UGX",
+		"leftCredits" : 345203.25
+	},
+	{
+		"_id" : "STD",
+		"leftCredits" : 4854.36
+	},
+	{
+		"_id" : "CAD",
+		"leftCredits" : 1973241.6
+	},
+	{
+		"_id" : "PHP",
+		"leftCredits" : 8223429.02
+	},
+	{
+		"_id" : "HRK",
+		"leftCredits" : 689403.5
+	},
+	{
+		"_id" : "ILS",
+		"leftCredits" : 758807.63
+	},
+	{
+		"_id" : "DOP",
+		"leftCredits" : 534069.77
+	}
+]
