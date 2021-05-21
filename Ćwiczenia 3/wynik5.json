@@ -1,0 +1,62 @@
+﻿[
+  {
+    "matrixActors": {
+"identity": 18,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Emil Eifrem",
+"born": 1978
+      }
+    }
+  },
+  {
+    "matrixActors": {
+"identity": 14,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    }
+  },
+  {
+    "matrixActors": {
+"identity": 13,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Laurence Fishburne",
+"born": 1961
+      }
+    }
+  },
+  {
+    "matrixActors": {
+"identity": 12,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Carrie-Anne Moss",
+"born": 1967
+      }
+    }
+  },
+  {
+    "matrixActors": {
+"identity": 11,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Keanu Reeves",
+"born": 1964
+      }
+    }
+  }
+]

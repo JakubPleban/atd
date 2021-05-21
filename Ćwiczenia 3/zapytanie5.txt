@@ -1,0 +1,1 @@
+MATCH (matrix:Movie {title: "The Matrix"})<-[:ACTED_IN]-(matrixActors) RETURN matrixActors
