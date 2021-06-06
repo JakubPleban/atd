@@ -1,0 +1,55 @@
+1.
+
+MATCH (movies:Movie) RETURN movies
+
+2.
+
+MATCH (hugo:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(hugoWeavingMovies) RETURN hugo, hugoWeavingMovies
+
+3.
+
+MATCH (hugo: Person {name: "Hugo Weaving"})-[:ACTED_IN]-(m)<-[:DIRECTED]-(directors) RETURN DISTINCT directors
+
+4.
+
+MATCH (hugo:Person {name: "Hugo Weaving"})-[:ACTED_IN]-(m)<-[:ACTED_IN]-(coActors) RETURN coActors
+
+5.
+
+MATCH (matrix:Movie {title: "The Matrix"})<-[:ACTED_IN]-(matrixActors) RETURN matrixActors
+
+6.
+
+MATCH (movie:Movie)<-[:ACTED_IN]-(actors) RETURN actors AS Actor, count (*) AS NumberOfMoviesActed
+
+7.
+
+MATCH (person:Person)-[:WROTE]->(movie)<-[:DIRECTED]-(person:Person) RETURN  person.name, movie
+
+8.
+
+MATCH (hugo: Person {name: "Hugo Weaving"})-[:ACTED_IN]->(movies)<-[:ACTED_IN]-(keanu: Person {name: "Keanu Reeves"}) RETURN movies
+
+9.
+
+CREATE (CaptainAmerica:Movie {title:'Captain America: The First Avenger', released:2011, tagline:'Steve Rogers, a rejected military soldier, transforms into Captain America ... war monger and a terrorist organization.'})
+CREATE (ChrisE:Person {name:'Chris Evan', born:1981})
+CREATE (HayleyA:Person {name:'Haylel Atwell', born:1982})
+CREATE (SebastianS:Person {name:'Sebastian Stan', born:1982})
+CREATE (TommyL:Person {name:'Tommy Lee Jones', born:1946})
+CREATE (DominicC:Person {name:'Dominic Cooper', born:1978})
+CREATE (ChristoperM:Person {name:'Christopher Markus', born:1970})
+CREATE (StephenM:Person {name:'Stephen McFeely', born:1969})
+CREATE (JoeJ:Person {name:'Joe Johnston', born:1950})
+CREATE
+(ChrisE)-[:ACTED_IN {roles:['Captain America / Steve Rogers']}]->(CaptainAmerica),
+(HayleyA)-[:ACTED_IN {roles:['Peggy Carter']}]->(CaptainAmerica),
+(SebastianS)-[:ACTED_IN {roles:['James Buchanan "Bucky" Barnes']}]->(CaptainAmerica),
+(TommyL)-[:ACTED_IN {roles:['Colonel Chester Phillips']}]->(CaptainAmerica),
+(hugo:Person {name:"Hugo Weaving"})-[:ACTED_IN {roles:['Johann Schmidt / Red Skull']}]->(CaptainAmerica),
+(DominicC)-[:ACTED_IN {roles:['Howard Stark']}]->(CaptainAmerica),
+(JoeJ)-[:DIRECTED]->(CaptainAmerica),
+(ChristoperM)-[:WROTE]->(CaptainAmerica),
+(StephenM)-[:WROTE]->(CaptainAmerica)
+
+MATCH (movie:Movie {title: "Captain America: The First Avenger"})<-[*]-(people:Person) RETURN movie, people
