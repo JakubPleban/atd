@@ -6,7 +6,7 @@ key = '/keys/Themenos'
 data1 = { 
 	'characterName': 'Themenos', 
 	'characterLevel': '3',
-    'characterClass': 'Paladin', 
+	'characterClass': 'Paladin', 
 	'characterStats': { 
 		'Strength': '16', 
 		'Dexterity': '10', 
@@ -17,8 +17,8 @@ data1 = {
 		}
 }
 data2 = { 
-	'characterName': 'Themenos',
-    'characterLevel': '4',
+	'characterName': 'Themenos', 
+	'characterLevel': '4',
 	'characterClass': 'Paladin', 
 	'characterStats': { 
 		'Strength': '16', 
