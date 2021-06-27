@@ -5,7 +5,8 @@ url = 'http://localhost:8098/buckets/s23308'
 key = '/keys/Themenos'
 data1 = { 
 	'characterName': 'Themenos', 
-	'characterClass': 'Paladin', 
+	'characterLevel': '3',
+    'characterClass': 'Paladin', 
 	'characterStats': { 
 		'Strength': '16', 
 		'Dexterity': '10', 
@@ -16,7 +17,8 @@ data1 = {
 		}
 }
 data2 = { 
-	'characterName': 'Themenos', 
+	'characterName': 'Themenos',
+    'characterLevel': '4',
 	'characterClass': 'Paladin', 
 	'characterStats': { 
 		'Strength': '16', 
