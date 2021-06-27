@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvndSKvaFCCWy5LEylC73ucWXBQA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s23308>; rel="up"
+Last-Modified: Sun, 27 Jun 2021 07:40:37 GMT
+ETag: "4OyxZiffZxXvA9COQSbSdf"
+Date: Sun, 27 Jun 2021 07:41:30 GMT
+Content-Type: application/json
+Content-Length: 229
+
+{ "characterName": "Draxan", "characterLevel": "15", "characterClass": "Paladin & Warlock", "characterStats": { "Strength": "18", "Dexterity": "13", "Constitution": "18", "Intelligence": "10", "Wisdom": "12", "Charisma": "20" } }

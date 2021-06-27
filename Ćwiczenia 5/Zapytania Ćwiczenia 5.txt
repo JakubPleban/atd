@@ -1,0 +1,48 @@
+Zadanie 1
+
+curl -XPUT -H "Content-Type: application/json" -d  '{ "characterName": "Kinnan", "characterLevel": "4", "characterClass": "Rogue", "characterStats": { "Strength": "8", "Dexterity": "18", "Constitution": "14", "Intelligence": "12", "Wisdom": "13", "Charisma": "10" } }' http://localhost:8098/buckets/s23308/keys/Kinnan -i
+
+curl -XPUT -H "Content-Type: application/json" -d '{ "characterName": "Grey", "characterLevel": "8", "characterClass": "Blood Hunter", "characterStats": { "Strength": "20", "Dexterity": "10", "Constitution": "16", "Intelligence": "16", "Wisdom": "12", "Charisma": "12" } }' http://localhost:8098/buckets/s23308/keys/Grey -i
+
+curl -XPUT -H "Content-Type: application/json" -d '{ "characterName": "Draxan", "characterLevel": "15", "characterClass": "Paladin & Warlock", "characterStats": { "Strength": "18", "Dexterity": "13", "Constitution": "18", "Intelligence": "10", "Wisdom": "12", "Charisma": "20" } }' http://localhost:8098/buckets/s23308/keys/Draxan -i
+
+curl -XPUT -H "Content-Type: application/json" -d '{ "characterName": "Ixon", "characterLevel": "2", "characterClass": "Wizard", "characterStats": { "Strength": "8", "Dexterity": "14", "Constitution": "16", "Intelligence": "16", "Wisdom": "12", "Charisma": "8" } }' http://localhost:8098/buckets/s23308/keys/Ixon -i
+
+curl -XPUT -H "Content-Type: application/json" -d '{ "characterName": "Vaalinor", "characterLevel": "6", "characterClass": "Fighter", "characterStats": { "Strength": "18", "Dexterity": "11", "Constitution": "18", "Intelligence": "14", "Wisdom": "12", "Charisma": "11" } }' http://localhost:8098/buckets/s23308/keys/Vaalinor -i
+
+Zadanie 2
+
+curl http://localhost:8098/buckets/s23308/keys/Draxan -i
+
+Zadanie 3
+
+curl -XPUT -H "Content-Type: application/json" -d '{ "characterName": "Draxan", "characterLevel": "15", "characterClass": "Paladin & Warlock", "characterStats": { "Strength": "18", "Dexterity": "13", "Constitution": "18", "Intelligence": "10", "Wisdom": "12", "Charisma": "20" }, "characterProficiencies": [ "Athletics", "Insight", "Intimidation", "Persuasion" ] }' http://localhost:8098/buckets/s23308/keys/Draxan -i
+
+Zadanie 4
+
+curl -XPUT -H "Content-Type: application/json" -d '{ "characterName": "Ixon", "characterClass": "Wizard", "characterStats": { "Strength": "8", "Dexterity": "14", "Constitution": "16", "Intelligence": "16", "Wisdom": "12", "Charisma": "8" } }' http://localhost:8098/buckets/s23308/keys/Ixon -i
+
+Zadanie 5
+
+curl -XPUT -H "Content-Type: application/json" -d '{ "characterName": "Vaalinor", "characterLevel": "7", "characterClass": "Fighter", "characterStats": { "Strength": "18", "Dexterity": "11", "Constitution": "18", "Intelligence": "14", "Wisdom": "12", "Charisma": "11" } }' http://localhost:8098/buckets/s23308/keys/Vaalinor -i
+
+Zadanie 6
+
+curl -XDELETE http://localhost:8098/buckets/s23308/keys/Ixon -i
+
+Zadanie 7
+
+curl http://localhost:8098/buckets/s23308/keys/Themenos -i
+
+Zadanie 8
+
+curl -XPOST -H "Content-Type: application/json" -d '{ "characterName": "BLANK" }' http://localhost:8098/buckets/s23308/keys -i
+
+
+Zadanie 9
+
+curl http://localhost:8098/buckets/s23308/keys/RnXF37hW3EwwrY6Sywj0NRNaNtg -i
+
+Zadanie 10
+
+curl -XDELETE http://localhost:8098/buckets/s23308/keys/RnXF37hW3EwwrY6Sywj0NRNaNtg -i
