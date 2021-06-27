@@ -1,0 +1,11 @@
+Put document. Response code:  204
+Get document. Response code:  200 
+
+{'characterName': 'Themenos', 'characterClass': 'Paladin', 'characterStats': {'Strength': '16', 'Dexterity': '10', 'Constitution': '16', 'Intelligence': '10', 'Wisdom': '12', 'Charisma': '16'}}
+Modifiy document. Response code:  204
+Get modified document. Response code:  200 
+
+{'characterName': 'Themenos', 'characterClass': 'Paladin', 'characterStats': {'Strength': '16', 'Dexterity': '10', 'Constitution': '16', 'Intelligence': '10', 'Wisdom': '12', 'Charisma': '18'}}
+Delete document. Response code:  204
+Get removed document. Response code:  404
+Can't get specified document
